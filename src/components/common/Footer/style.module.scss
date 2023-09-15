@@ -1,0 +1,42 @@
+@import "@/app/variables";
+
+.container{
+    display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+    padding: 30px 40px;
+    background-color: black;
+    color: white;
+}
+
+.singleContainer{
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    width: 30%;
+    margin:0px auto;
+    // border: 1px solid red;
+}
+.title2{
+    // margin-left: -40px;
+}
+.para1{
+    width: 50%;
+}
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.linksContainer{
+    display: flex;
+    
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container p,.linksContainer{
+color: $color-smallTextWhite;
+}

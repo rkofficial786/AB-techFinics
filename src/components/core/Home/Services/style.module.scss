@@ -1,0 +1,60 @@
+@import "@/app/variables" ;
+
+
+.container{
+    width: 95%;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+.container>p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 28.75px;
+    color: $color-grayish;
+}
+
+
+
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+  }
+  
+  .card {
+    width: 48%; 
+    // margin-bottom: 16px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 635px;
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 30px;
+    
+  }
+  
+
+  .textArea{
+    display: flex;
+    // justify-content: center;
+    // align-items: center;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .textArea h1{
+    color: $color-titleText;
+    text-decoration: underline;
+  }
+  .textArea p{
+    color: $color-smalltext;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+  }

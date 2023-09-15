@@ -1,0 +1,40 @@
+@import "@/app/variables";
+
+.main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../../../Assets/bg.png");
+
+  background-position: center;
+  background-size: cover;
+  min-height: 661px;
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transform: translate(-50%, -50%);
+}
+
+.text h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+.text p{
+    font-size: 22px;
+    font-weight: 600;
+    max-width: 804px;
+}
+
+.text button{
+    width: 140px;
+    border-radius: 180px;
+    height: 40px;
+    border: none;
+    color: $color-skyblue;
+}

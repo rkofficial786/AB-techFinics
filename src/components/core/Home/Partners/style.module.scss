@@ -1,0 +1,32 @@
+@import "@/app/variables";
+
+
+.container{
+    
+    margin-top: 100px;
+
+}
+
+.cardsContainer{
+width: 95%;
+margin: 0px auto;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+gap: 20px;
+margin-top: 50px;
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 400px;
+    height: 104px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    
+}

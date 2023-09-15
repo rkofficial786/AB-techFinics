@@ -1,0 +1,23 @@
+@import "@/app/variables" ;
+
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.heading h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58px;
+    color: $color-skyblue;
+}
+.heading div{
+    background-color:$color-skyblue ;
+    height: 5px;
+    width: 10%;
+    margin: auto;
+}

@@ -1,0 +1,83 @@
+@import "@/app/variables";
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 120px;
+  margin: 0px 20px;
+}
+
+.image {
+  width: 219px;
+  object-fit: contain;
+}
+
+.linkContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: $color-richblack;
+}
+
+.infoContainer {
+  display: flex;
+  // justify-content: center;
+  // align-items: center;
+  flex-direction: column;
+  color: $color-richblack;
+}
+
+.singleInfo {
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.dropdown {
+  font-size: 30px;
+}
+
+.activeNav {
+  position: relative;
+  color: $color-red;
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  justify-content: center;
+}
+
+.activeNav::before {
+  content: "";
+  width: 70%;
+  height: 3px;
+  background-color: $color-richblack;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+.inactiveNav {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  justify-content: center;
+}
+
+.inactiveNav::before {
+  content: "";
+  width: 0%;
+  height: 3px;
+  background-color: $color-richblack;
+  top: 0;
+  position: absolute;
+  left: 0;
+  transition: width 0.5s ease-in-out;
+}
+
+.inactiveNav:hover::before {
+  width: 70%;
+}
